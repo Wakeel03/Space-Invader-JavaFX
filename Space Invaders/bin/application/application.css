@@ -1,0 +1,33 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root{
+	-fx-background-color: #ffffff;
+}
+
+.label{
+	-fx-font-size: 64px;
+	-fx-text-fill: linear-gradient(#ff1453, #bf52ff);
+	-fx-label-padding: 0 0 50px 0;
+}
+
+.button{
+	-fx-background-color: #5b4dc9;
+	-fx-pref-width: 150px;
+	-fx-pref-height: 60px;
+	-fx-text-fill: #ffffff;
+	-fx-font-size: 16px;
+}
+
+.button:hover{
+	-fx-background-color: #6f60e6;
+	-fx-cursor: hand;
+}
+
+.danger{
+	-fx-background-color: #de2157;
+}
+
+.danger:hover{
+	-fx-background-color: #ed265f;
+	-fx-cursor: hand;
+}
